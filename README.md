@@ -6,7 +6,7 @@
 - Prepare Data: Place raw Excel files (e.g., "makers_monthwise_2023.xlsx", "makers_monthwise_2024.xlsx", "makers_monthwise_2025.xlsx") in the `data/raw/` folder. Ensure filenames include a 4-digit year.
 - Process Data: Execute `python src/process_data.py` to generate the processed dataset in `data/processed/vehicle_data.csv`.
 - Run Dashboard: Start the app with `streamlit run src/app.py`.
-- Virtual Environment (Optional): If using a virtual environment, activate it with `source venv/bin/activate` (Unix) or `venv\Scripts\activate` (Windows) before installing dependencies or running scripts.
+
 
 ## Data Assumptions
 
